@@ -57,6 +57,7 @@ table,th,td,tr{
 .name,.image{
    padding-right: 25px;
    font-size: 30px;
+
 }
 @media  screen and (max-width:688px) {
 .main{

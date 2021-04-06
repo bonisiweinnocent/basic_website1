@@ -253,10 +253,70 @@ table{
     display: block;
   }
 }
-
-@media only screen and (min-width: 60em) { /* 960px */
-  .container {
-    width: 75%;
-    max-width: 60rem;
-  }
+.a{
+  display: flex;
 }
+
+.one {
+  flex: 1;
+  font-size: 15px;
+  padding-right: 10px;
+}
+.one img{
+  float: right;
+}
+.two {
+  flex: 2;
+}
+.rowf{
+  text-align: center;
+}
+.on{
+clear: right;
+  padding: 20px;
+}
+ /* small screens * */
+@media  screen and (max-width:688px) {
+  .main{
+      display: flex;
+      flex-flow: column;
+  }
+  .one img{
+      flex-wrap: wrap;
+      width: 30%;
+      height: auto;
+      padding: 10px;
+  }
+  .one1 img{
+      float: left;
+      width: 40%;
+      height: auto;
+      padding: 10px;
+  }.two img{
+    flex-wrap: wrap;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    float: right; 
+  }
+  }
+   /* bigger screens */
+   @media screen and (min-width:689px) and (max-width:992px){
+ 
+  .one img{
+      width: 40%;
+      height: auto;
+      padding: 10px;
+  }
+  .one1 img{
+      float: left;
+      width: 40%;
+      height: auto;
+      padding: 10px;
+  }   
+  .two img{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+  }
+   }
