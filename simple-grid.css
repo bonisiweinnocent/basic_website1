@@ -16,6 +16,7 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+ background-color: darkgray;
 }
 
 /* ROOT FONT STYLES */
@@ -95,7 +96,7 @@ table,th,td,tr{
   border-collapse: collapse;
 }
  table{
-     width: 80%;
+     width: 100%;
  }
 /* ==== GRID SYSTEM ==== */
 
@@ -247,6 +248,9 @@ table,th,td,tr{
   .hidden-sm {
     display: block;
   }
+}
+.row{
+  text-align: center;
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
