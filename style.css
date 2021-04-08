@@ -15,6 +15,9 @@ body{
     padding-bottom: 20px;
     justify-content: space-evenly;
 }
+.two-one {
+    display: flex;
+}
 .image{
     padding-left: 10px;
     
@@ -43,6 +46,7 @@ table,th,td,tr{
     flex: 1;
     font-size: 15px;
     padding-right: 10px;
+
 }
 .one img{
     float: right;
@@ -57,8 +61,8 @@ table,th,td,tr{
 .name,.image{
    padding-right: 25px;
    font-size: 30px;
-
 }
+/* media query below */
 @media  screen and (max-width:688px) {
 .main{
     display: flex;
@@ -77,22 +81,21 @@ table,th,td,tr{
     padding: 10px;
 }
 }
- 
  @media screen and (min-width:689px) and (max-width:992px){
 .main{
     display: flex;
     flex-flow: column;
-    padding: 5px;
+    padding: 10px;
 }
 .one img{
-    width: 40%;
+    width: 20%;
     height: auto;
     padding: 10px;
 }
 .one1 img{
-    float: left;
-    width: 40%;
+    width: 20%;
     height: auto;
     padding: 10px;
+    
 }   
  }
